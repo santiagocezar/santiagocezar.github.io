@@ -1,0 +1,45 @@
+.busqueda {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.caja img {
+    width: 128px;
+}
+.caja input {
+    all: unset;
+    appearance: none;
+    background-color: white;
+    padding: .5rem 1.5rem;
+    border-radius: 9999999rem;
+    color: black;
+    width: 150%;
+}
+.botones {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    white-space: nowrap;
+    justify-content: center;
+}
+.botones button{
+    all: unset;
+    appearance: none;
+    background-color: white;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    user-select: none;
+}
+
+.botones button:disabled {
+    color: #0008;
+}
